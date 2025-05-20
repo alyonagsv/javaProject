@@ -1,14 +1,13 @@
-package bsug;
+package bsug
 
 import jakarta.enterprise.context.ApplicationScoped
 
 @ApplicationScoped
-public class CurrencyService {
+class CurrencyService {
 
     private final Map<String, Map<String, Double>> conversionRates = [:]
 
     CurrencyService() {
-        // инициализация курсов валют
         conversionRates["USD"] = [
                 "BYN": 3.0113,
                 "EUR": 0.8869,
