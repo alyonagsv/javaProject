@@ -13,6 +13,7 @@ public class ConversionResult {
         this.result = result;
     }
 
+    // Геттеры
     public String getFrom() {
         return from;
     }
@@ -29,6 +30,7 @@ public class ConversionResult {
         return result;
     }
 
+    // Сеттеры
     public void setFrom(String from) {
         this.from = from;
     }
