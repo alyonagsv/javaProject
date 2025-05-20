@@ -41,8 +41,9 @@ nb-configuration.xml
 .certs/
 
 /.idea
-/.test
-/gradlew.bat
-/.native-test
-/.docker
 /.gradle
+/gradle.properties
+/settings.gradle
+/gradlew.bat
+/gradlew
+/gradle
