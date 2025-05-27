@@ -29,21 +29,4 @@ public class ConversionResult {
     public double getResult() {
         return result;
     }
-
-    // Сеттеры
-    public void setFrom(String from) {
-        this.from = from;
-    }
-
-    public void setTo(String to) {
-        this.to = to;
-    }
-
-    public void setAmount(double amount) {
-        this.amount = amount;
-    }
-
-    public void setResult(double result) {
-        this.result = result;
-    }
 }
